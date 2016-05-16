@@ -1,0 +1,6 @@
+CREATE TABLE Retail_numbers IF NOT EXISTS (
+	id BIGINT NOT NULL,
+	SKU VARCHAR(255) NOT NULL,
+	price REAL,
+	sold BIGINT
+);
